@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio - Maxence Buisson</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="Stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Maxence Buisson</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+            	<section>
+            		<div id="container">    
+                		<div id="photo_container">
+                    		<img src="img/lolilolmoe.jpg" id="photo" rel="background image"> 
+                		</div>
+                		<p id="home_bold">Bienvenue sur la page d'accueil de mon portfolio</p>
+							<div id="background_container">
+								<article>
+									<p class="title">Profil</p>
+								</article>							
+							</div>  	         		
+  	         		</div>
+  	         	</section>
+  	         </main>
+			<footer>
+         	<div id="footer_container">	
+            	<p>&copy;Copyright 2021 Maxence Buisson for Philentropy. All right reserved.</p>
+            </div>
+        	</footer>
+    </body>
+</html>

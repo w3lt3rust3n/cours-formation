@@ -1,0 +1,186 @@
+/* CSS du site sport.com */
+
+/* Reset des padding et margin */
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+header
+{
+    height: 170px;
+    background-color: rgb(243, 243, 243);
+    display: flex;  
+}
+
+.brand-container
+{
+    width: 300px;
+    height: 125px;
+    padding-top: 35px;
+    margin-left: 270px;
+    padding-left: 15px;
+    border-left: 2px solid orange;
+}
+
+.brand-container img
+{
+    width: 100%;
+}
+
+.brand-container span
+{
+    font-size: 20px;
+    display: inline-block;
+}
+
+#desc-start
+{
+    color: rgb(46, 46, 46);
+}
+
+#desc-end
+{
+    color: rgb(210, 147, 16);
+}
+
+.container-box
+{
+    width: 450px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: rgb(233, 233, 233);
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-box img
+{
+    width: 70%;
+}
+
+.container-box span
+{
+    margin-top: 12px;
+}
+
+#greeting-text
+{
+    margin-left: 650px;
+    font-size: 18px;
+}
+
+nav ul
+{
+    margin-top: 22px;
+    margin-left: 300px;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    width: auto;
+    margin-top: 1px;
+    padding: 15px;
+    text-align: center;
+    line-height: 50px;
+    display: inline;
+    border-right: 1px solid rgb(46, 46, 46);
+}
+
+#start
+{
+    border-left: 1px solid rgb(46, 46, 46);
+}
+
+nav a
+{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+figure
+{
+    width: 450px;
+    height: 450px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+#container-articles
+{
+    width: 1050px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+}
+
+#test-img
+{
+    width: 1050px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalogue-img-container
+{
+    width: 1360px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("header-page-catalogue.png");
+    background-size: cover;
+}
+
+.catalogue-container
+{
+    width: 1328px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 35px;
+    
+    
+}
+
+.item-container
+{
+    width: 355px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 35px;
+}
+
+figcaption
+{
+    background-color: white;
+}
+
+.reduc
+{
+   background-color: yellow;
+   height: 35px;
+   line-height: 35px;
+   text-align: center;
+   width: 45px;
+    float: right;
+    margin-right: 35px;
+}
+
+footer
+{
+    background-color: grey;
+}

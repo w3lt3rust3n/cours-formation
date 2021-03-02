@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#global
+{
+    background-color: darkblue;
+    width: 500px;
+    padding: 5px;
+}
+
+#flottant1
+{
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    margin: 5px;
+    float: left; 
+}
+
+#flottant2
+{
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    margin: 5px;
+    float: left;
+}
+
+#lorem
+{
+    color: pink;
+    font-family: 'Hanalei', cursive;
+    background-color: orangered;
+    clear: both;
+}
+
+#flottant3
+{
+    height: 60px;
+    background-color: pink;
+    margin: 5px;
+    float: right;
+} 

@@ -1,0 +1,13 @@
+body
+{
+    padding-top: 100px;
+}
+
+[class*="col"]
+{
+    background-color: rgb(109, 205, 243);
+    border: 1px solid red;
+    border-radius: 4px;
+
+    text-align: center;
+}

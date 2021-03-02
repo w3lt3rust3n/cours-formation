@@ -1,0 +1,179 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("img/bg.png");
+}
+
+header
+{
+    height: 90px;
+    width: 1750px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 2px;
+    background-color: #FFFCE0;
+}
+
+#banner_box
+{
+    background-color: #FFFCE0;
+    display: inline-block;
+}
+
+#name
+{
+    display: inline;
+    color: orange;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 60px;
+    line-height: 65px;
+}
+
+#extension
+{
+    display: inline;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 65px;
+}
+
+#banner_container
+{
+    width: 300px;
+    height: 90px;
+    background-color: #FFFCE0;
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#screen_img
+{
+    width: 40%;
+}
+
+#ver
+{
+    width: 150px;
+    text-decoration: underline #FD923C;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 80px;
+    margin-left: 15px;
+    background-color: #FFFCE0;
+}
+
+#menu_container
+{
+    width: 1750px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: #FFFCE0;
+    border: solid black 2px;
+}
+
+ul
+{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    list-style-type: none;
+    width: 100px;
+    height: 42px;
+    margin-top: 15px;
+    background-color: blue;
+    line-height: 42px;
+    text-align: center;  
+}
+
+#active_tab
+{
+    
+}
+
+main
+{
+    background-color: #FFFCE0;
+    width: 1750px;
+    height: 885px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+section
+{
+    width: 1650px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+}
+
+article
+{
+    width: 1450px;
+    height: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding-top: 15px;
+    background-color: white;
+}
+
+#img_block
+{
+    width: 300px;
+    height: 175px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#img_block p
+{
+    color: black;
+}
+
+.img
+{
+    width: 68%;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+#articles_container
+{
+    width: 1750px;
+    height: 1750px;
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-top: 15px;
+    background-color: white;  
+    border: solid black 2px;
+    
+}
+

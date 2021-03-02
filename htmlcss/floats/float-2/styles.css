@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#global
+{
+    width: 400px;
+    margin: 5px;
+    padding: 1px;
+    background-color: blue;
+}
+
+#float_1
+{
+    height: 300px;
+    padding-right: 55px;
+    margin: 5px;
+    background-color: crimson;
+    float: left;
+}
+
+#float_2
+{
+    height: 250px;
+    padding-right: 25px;
+    margin: 5px;
+    background-color: crimson;
+    float: left;
+}
+
+#float_3
+{
+    height: 150px;
+    margin: 5px;
+    background-color: crimson;
+    float: left;
+}

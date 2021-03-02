@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    margin-top: 90px;    
+}
+
+ul
+{
+    width: 900px;
+    height: 50px;
+    border-top: solid cyan;
+    background-color: black;
+}
+
+li
+{
+    float: left;
+    width: 150px;
+    height: 50px;
+    list-style-type: none;
+}
+
+a
+{
+    background-color: greenyellow;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: solid red;
+    display: block;
+}
+
+#courant
+{
+    background-color: cyan;
+}
+
+li:hover
+{
+    text-decoration: violet;
+
+}

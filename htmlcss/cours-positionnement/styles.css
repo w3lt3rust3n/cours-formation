@@ -1,0 +1,32 @@
+body
+{
+    background-color: lightcoral;
+}
+
+div
+{
+    color: blue;
+    background-color: powderblue;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span
+{
+    font-weight: bold;
+    background-color: lightgreen;
+    color: black;
+    font-family: 'open sans' Arial, Helvetica, sans-serif;
+}
+
+li
+{
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+p
+{
+    text-align: center;
+}

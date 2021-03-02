@@ -1,0 +1,11 @@
+.maClasse{
+    font-size: 100px;
+    border: 2px solid red;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: center; */
+    border: 2px solid blue;
+    background-color: cyan;
+}

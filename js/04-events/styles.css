@@ -1,0 +1,15 @@
+main
+{
+    width: 50%;
+    margin: auto;
+}
+
+.background
+{
+    background-color: brown;
+}
+
+table td,
+table th {
+    background-color: transparent;
+} 

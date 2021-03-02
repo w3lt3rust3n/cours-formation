@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Find Your Coach</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"	/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="container-fluid" id="test">
+                <div class="row">
+                    <img src="img/logo.png" alt="logo find your coach" class="col-1 col-sm-1 col-md-1 col-lg-1" id="logo">
+                    <nav class="navbar navbar-expand">
+                        <ul class="col-2">
+                            <li><a href="#">Recherche</a></li>
+                            <li><a href="#">Inscription</a></li>
+                            <li><a href="#">Connexion</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6" id="form-box">
+                        <legend>Réserve ton coach sportif</legend>
+                        <p>Plus de 80 sports et 250 coachs dans toute la France</p>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option value="defaut" selected>Choisissez votre sport</option>
+                                <option value="course">Course à pied</option>
+                                <option value="fitness">Fitness</option>
+                                <option value="yoga">Yoga</option>
+                                <option value="taichi">Taichi</option>
+                        </select>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option value="defaut" selected>Choisissez votre ville</option>
+                                <option value="paris">Paris</option>
+                                <option value="rouen">Rouen</option>
+                                <option value="lehavre">Le Havre</option>
+                                <option value="dieppe">Dieppe</option>
+                                <option value="arques">Arques la bataille</option>
+                          </select>
+                          <input type="submit" value="Envoyer">     
+                    </div>
+                </div>          
+        </main>
+    </body>
+</html>

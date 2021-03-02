@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#conteneur
+{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element1
+{
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    order: 3;
+}
+
+.element2
+{
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    align-self: flex-start;
+    order: 1;
+   
+    
+}
+
+.element3
+{  
+    width: 100px;
+    height:70px;
+    background-color: blue;
+    order: 2;
+}

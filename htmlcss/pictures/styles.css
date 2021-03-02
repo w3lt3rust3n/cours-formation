@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    border-radius: 15px;
+    background-image: url(img/roshan.jpg);
+    background-size: cover;
+}
+
+h1
+{
+    margin-left: 60px;
+    margin: 60px;
+}
+
+#global
+{
+    background-color: white;
+    padding-left: 30px;
+    margin: 80px;
+}
+
+iframe
+{
+    margin: 60px;
+}
+figure
+{
+    display: inline-block;
+    margin: 60px;    
+}

@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("img/screenimg.png");
+    background-repeat: no-repeat;
+    background-position: top 5px center;
+    overflow: hidden;
+}
+
+header
+{
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#container
+{
+    width: 1350px;
+    /* height: 720px; */
+    height: 666px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    overflow: auto;
+}
+
+nav ul
+{
+    height: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    background-color: rgb(100, 100, 100);
+    width: 100%; 
+    text-align: center;    
+}
+
+nav li:hover
+{
+    border-bottom: solid #bb0306;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav a:hover
+{
+    color: #bb0306;
+}
+
+#container p
+{
+    margin-top: 80px;
+    color: black;
+}
+
+nav, footer
+{
+    width: 1350px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+#photo_container
+{
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    margin-left: 35px;
+    margin-top: 25px;
+    float: left; 
+}
+
+#photo
+{
+    width: 100%;
+}
+
+#home_bold
+{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 300px;
+    margin-top: 500px;
+}
+
+#showroom_container
+{
+    background-color:#bdbaba;
+    height: 400px;
+    margin-top: 110px; 
+}
+
+#io_container
+{
+    width: 1350px;
+    height: 400px;
+}
+
+#io_img
+{
+    width: 100%;
+}
+
+#echoes_container
+{
+    width: 1350px;
+    height: 400px;
+}
+
+#echoes_img
+{
+    width: 100%;
+}
+
+#echoes_help_img
+{
+    width: 100%;
+}
+
+#ltcs_container
+{
+    width: 1350px;
+    height: 400px;
+}
+
+#ltcs_exemple_img
+{
+    width: 100%;
+}
+
+#ltcs_info_img
+{
+    width: 100%;
+}
+
+#npk_container
+{
+    width: 1350px;
+    height: 400px;
+}
+
+#npk_menu_img
+{
+    width: 100%;
+}
+
+#npk_gui_img
+{
+    width: 100%;
+}
+#footer_container
+{
+    width: 1350px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+}

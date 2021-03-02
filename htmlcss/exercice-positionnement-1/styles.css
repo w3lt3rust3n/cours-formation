@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+}
+
+#petit_body
+{
+    background-color: bisque;
+    padding: 10px;
+    display: inline-block;
+}
+
+h1 
+{
+    background-color: brown;
+    margin: 5px;
+    padding: 10px;
+}
+
+div
+{
+    background-color: darkgoldenrod;
+    margin: 5px;
+    padding: 10px;
+}
+
+#link_o
+{
+    color: purple;
+    background-color: yellowgreen;
+    margin: 5px;
+}
+
+#link_t
+{
+    color: blue;
+    background-color: yellow;
+    margin: 5px;
+}
+
+span 
+{
+    background-color: palevioletred;
+    display: inline-block;
+}
+
+#list
+{
+    background-color: khaki;
+    padding-left: 60px;
+}
+
+ul
+{
+    margin-left: 30 px;
+    
+}
