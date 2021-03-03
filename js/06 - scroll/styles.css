@@ -1,0 +1,24 @@
+.text {
+    background-color: aqua;
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    transition: all 1s ease-out;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.changeBackground {
+    background-color: blueviolet;
+    transition: all 1s ease-out;
+}
+
+.compteur {
+    background-color: grey;
+    position: fixed;
+    float: left;
+}
