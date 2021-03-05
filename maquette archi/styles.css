@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+nav p {
+    display: inline-block;
+}
+
+.nav-title {
+    margin-left: 2%;
+}
+#title-part1 {
+    color: black;
+    font-weight: bolder;
+}
+
+#title-part2 {
+    color: black;
+}
+
+ul {
+    margin-right: 2%;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.carousel {
+    height: 600px;
+    width: auto;
+    background-color: aqua;
+}
+
+#img-cards {
+    width: 100%;
+}
+
+.brand-box {
+    background-color: blueviolet;
+}
+
+#brand-part-one {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.8;
+    display: inline;
+}

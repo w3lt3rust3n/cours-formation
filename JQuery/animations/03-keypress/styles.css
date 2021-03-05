@@ -1,0 +1,11 @@
+p {
+    width: 50%;
+    height: auto;
+    overflow: auto;
+    font-size: 60px;
+
+}
+
+.information {
+    display: none;
+}
