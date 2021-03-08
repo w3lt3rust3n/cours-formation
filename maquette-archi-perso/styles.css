@@ -1,0 +1,149 @@
+/* CSS de Br Architects */
+
+
+/* On reset pour éviter les soucis entre les navigateurs */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* On met la famille de police suivante pour le <body> */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Partie qui va du <nav> et qui s'arrête avant la <div class="container-fluid"> */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+nav p {
+    display: inline-block;
+}
+
+.nav-title {
+    padding-left: 30px;
+}
+
+#title-part1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 15px;
+}
+
+#title-part2 {
+    color: black;
+    font-size: 1.2em;
+    line-height: 15px;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+li a {
+    color: black;
+    font-weight: 1.2em;
+}
+
+.diapo {
+    position: relative;
+
+}
+
+.img-cards {
+    width: 100%;
+}
+
+.brand-box {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate("-50%", "-50%");
+} 
+
+.gngn 
+{
+    background-color: black;
+    padding: 15px;
+    opacity: 0.8;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+
+
+}
+
+/* Partie entre la section Projects et About. */
+h1 {
+    font-size: 2em;
+    margin-top: 5px;  
+}
+
+.projects-box {
+    overflow: hidden;
+    height: 250px;
+}
+
+.project-image-card {
+    position: relative;
+    margin: 10px auto;
+    height: 100%;
+    width: 100%;
+}
+
+.projects-box figcaption {
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+figure span {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    display: block;
+}
+
+.about-text {
+    padding: 15px;
+}
+
+.about-box img {
+    width: 100%;
+}
+
+.about-box h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.job {
+    color: grey;
+    font-size: 1.2em;
+}
+
+.contact-box {
+
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.contact-box a {
+    color: black;
+    font-size: 0.7em;
+}

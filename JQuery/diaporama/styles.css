@@ -1,0 +1,10 @@
+.diaporama {
+    width: 100%;
+    height: 95vh;
+    margin: 1px auto;   
+}
+
+.diaporama img {
+    width: 100%;
+    height: 100%;
+}
