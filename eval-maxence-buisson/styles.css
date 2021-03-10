@@ -1,0 +1,154 @@
+/* CSS du site vtc.com 
+Fait par Maxence Buisson - maxence.buisson@gmail.com
+*/
+
+/* Reset des marges internes/externes qui peuvent causer des soucis en fonction du navigateur web */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: none;
+}
+/* Dans le <header> */
+
+.bg-header {
+    width: auto;
+    height: 886px;
+    /*background-image: url('img/background.jpg');*/
+
+    background-size: cover;
+}
+
+.diaporama {
+    width: 100%;
+    height: 65vh;
+    margin: 1px auto;
+}
+
+.diaporama img {
+    height: 100%;
+    width: 100%;
+}
+
+.toggleBtn {
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: white; /* Juste pour permettre de mieux voir le bouton du menu */
+}
+
+.opened-nav {
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: red;
+    display: none;
+}
+
+.header-text {
+    /* background-color: blue; */
+    position: relative;
+    height: 100px;
+    color: white;
+    top: 10%;
+    left: 35%; 
+    margin-right: auto;
+}
+
+.header-form {
+    background-color: grey;
+    opacity: 0.8;
+    position: relative;
+    left: 28%;
+    padding: 15px;
+}
+
+.header-form select {
+    margin-right: 60px;
+}
+
+.header-form input {
+    margin-right: 60px;
+}
+
+.validation {
+    float:right;
+    background-color: green;
+    width: 280px;
+    height: 35px;
+    text-align: center;
+}
+/* 
+.header-form label {
+    background-color: green;
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+} */
+
+.header-form a {
+    color: white;
+}
+
+/* <main> jusqu'au <footer> */
+
+#results {
+    font-size: 2em;
+}
+
+.car-img-box {
+
+}
+
+.arrow-box {
+}
+
+.arrow-box img {
+    width: 25%;
+    margin-top: 8vh;
+}
+/* .arrow {
+   width: 50%;
+} */
+
+.brand {
+    font-size: 2em;
+}
+
+.model-description {
+    font-size: 1.2em;
+}
+
+.model-price {
+    font-size: 0.9em;
+}
+
+.reserve-btn {
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+/* <footer> */
+
+footer {
+    /* background-color: chartreuse; */
+    height: 200px;
+}
+
+.img-footer {
+    /* background-color: aqua;     */
+}
+
+.img-footer img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-info-container {
+    /* background-color: blueviolet; */
+    height: 200px;
+}
