@@ -1,0 +1,13 @@
+<p>navbar works!</p>
+<nav class="col-12">
+  <p [id]="'background'">Navbar</p>
+    <img src="../../assets/img/hqdefault.jpg" alt="">
+    <ul *ngFor="let petitTab of tab">
+        <li>{{petitTab.nom}} {{petitTab.age}}</li>
+    </ul>
+
+    <div *ngIf="valeur === true">
+      <p>Je suis la </p>
+    </div>
+
+</nav>
