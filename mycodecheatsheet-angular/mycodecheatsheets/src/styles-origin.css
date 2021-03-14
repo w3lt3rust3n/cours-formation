@@ -1,0 +1,117 @@
+/*
+  CSS de MyCodeCheatSheets par Maxence Buisson pour le compte de Philentropy
+
+  contact: philentropy@protonmail.ch
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  overflow: auto;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: #999;
+  border-bottom: 2px solid #666;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline;
+
+}
+
+.nav a {
+  color: white;
+  margin-right: 2%;
+}
+
+.nav a:hover {
+  font-size: 1em;
+  color: white;
+  margin-right: 2%;
+}
+
+#title {
+  color: white;
+  /* line-height: 61px; */
+  margin-left: 5px;
+  font-size: 2.2em;
+}
+
+.html-title {
+  background-color: lightgray;
+}
+
+.html-title h1 {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.html-title h2 {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.html-chapter {
+  background-color: lightgray;
+}
+
+.html-chapter h3 {
+  color: #333;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.html-container {
+  background-color: lightgray;
+  height: auto;
+  display: inline-flex;
+}
+
+.content {
+  background-color: #222;
+  color: white;
+  overflow-y: scroll;
+}
+
+.content ol {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  opacity: 0.8;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content li {
+  list-style-type: none;
+  padding-left: 35px;
+}
+
+.less {
+  height: 1.5vh;
+  float: right;
+  margin: 1%;
+}
+
+.more {
+  height: 1.5vh;
+  float: right;
+  margin: 1%;
+}
+
+.content code {
+  color: chartreuse;
+}
+
+

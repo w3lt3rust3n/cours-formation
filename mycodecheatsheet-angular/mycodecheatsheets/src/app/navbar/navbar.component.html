@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 nav">
+      <span id="title">My Code Cheatsheets</span>
+      <ul *ngFor="let liTab of linkTab">
+        <li><a href={{liTab.id}}>{{liTab.name}}</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
